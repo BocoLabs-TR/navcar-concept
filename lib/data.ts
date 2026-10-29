@@ -1,3 +1,10 @@
+/** Extra search keywords (city names etc.) not present in the port names. */
+export const PORT_KEYWORDS: Record<string, string> = {
+  jebelAli: 'Dubai دبي',
+  ambarli: 'Istanbul İstanbul إسطنبول اسطنبول',
+  kocaeli: 'İzmit Izmit'
+};
+
 export const PORTS = [
   {id: 'ambarli', country: 'tr'},
   {id: 'mersin', country: 'tr'},

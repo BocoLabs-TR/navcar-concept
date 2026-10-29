@@ -3,7 +3,13 @@
 import {CircleCheck, LoaderCircle, Minus, Plus} from 'lucide-react';
 import {useTranslations} from 'next-intl';
 import {useEffect, useMemo, useRef, useState} from 'react';
-import {CONTAINER_TYPES, PORTS} from '@/lib/data';
+import ar from '@/messages/ar.json';
+import en from '@/messages/en.json';
+import tr from '@/messages/tr.json';
+import {CONTAINER_TYPES, PORT_KEYWORDS, PORTS} from '@/lib/data';
+
+// port/country names in every locale, so search works regardless of the active language
+const ALL_NAMES: {ports: Record<string, string>; countries: Record<string, string>}[] = [tr, en, ar];
 import {PortCombobox, type PortOption} from './PortCombobox';
 
 type Values = {
@@ -70,7 +76,11 @@ export function QuoteForm() {
   }, [phase]);
 
   const options: PortOption[] = useMemo(
-    () => PORTS.map((p) => ({id: p.id, name: tp(p.id), country: tc(p.country)})),
+    () =>
+      PORTS.map((p) => {
+        const names = ALL_NAMES.map((m) => `${m.ports[p.id]} ${m.countries[p.country]}`).join(' ');
+        return {id: p.id, name: tp(p.id), country: tc(p.country), search: `${names} ${PORT_KEYWORDS[p.id] ?? ''}`};
+      }),
     [tp, tc]
   );
 

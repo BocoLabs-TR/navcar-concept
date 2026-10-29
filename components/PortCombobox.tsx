@@ -3,7 +3,8 @@
 import {ChevronDown} from 'lucide-react';
 import {useId, useMemo, useRef, useState, useEffect} from 'react';
 
-export type PortOption = {id: string; name: string; country: string};
+/** `search` holds every searchable name (all locales + extra keywords), shown name stays `name`. */
+export type PortOption = {id: string; name: string; country: string; search: string};
 
 export function normalize(s: string) {
   return s
@@ -41,7 +42,7 @@ export function PortCombobox({id, label, placeholder, options, value, onChange, 
   const filtered = useMemo(() => {
     const q = normalize(text);
     if (!q || (selected && text === `${selected.name}, ${selected.country}`)) return options;
-    return options.filter((o) => normalize(`${o.name} ${o.country}`).includes(q));
+    return options.filter((o) => normalize(`${o.name} ${o.country} ${o.search}`).includes(q));
   }, [text, options, selected]);
 
   useEffect(() => {
@@ -65,10 +66,9 @@ export function PortCombobox({id, label, placeholder, options, value, onChange, 
       if (!open) setOpen(true);
       else setActive((a) => Math.max(a - 1, 0));
     } else if (e.key === 'Enter') {
-      if (open && filtered[active]) {
-        e.preventDefault();
-        choose(filtered[active]);
-      }
+      // never submit the form from inside the combobox
+      e.preventDefault();
+      if (open && filtered[active]) choose(filtered[active]);
     } else if (e.key === 'Escape') {
       if (open) {
         e.preventDefault();
