@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "title": "Navcar Shipping | Ocean Container Freight",
+    "description": "From FCL and LCL container shipping to customs clearance, we manage every step of your imports and exports through a single point of contact."
+  },
+  "brand": {"name": "Navcar Shipping", "sub": "Shipping"},
+  "badge": {"text": "Concept work · BocoLabs"},
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "routes": "Routes",
+    "contact": "Contact",
+    "quote": "Get a Quote",
+    "main": "Main menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "home": "Navcar Shipping – back to top"
+  },
+  "lang": {"label": "Language", "tr": "Türkçe", "en": "English", "ar": "العربية"},
+  "hero": {
+    "eyebrow": "Ocean Container Freight",
+    "title": "Your cargo, safely delivered to ports around the world.",
+    "text": "From FCL and LCL container shipping to customs clearance, we manage every step of your imports and exports through a single point of contact.",
+    "ctaQuote": "Request a Quote",
+    "ctaRoutes": "Explore Our Routes",
+    "artLabel": "Stylised illustration of a container ship and route lines",
+    "stats": [
+      {"value": "50+", "label": "Ports"},
+      {"value": "30+", "label": "Countries"},
+      {"value": "24/7", "label": "Operations Tracking"}
+    ]
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Trust at sea, transparency on land",
+    "text": "Navcar Shipping is a dependable logistics partner for importers and exporters, with scheduled sailings from Türkiye's leading ports to the Gulf, Europe and the Far East. We follow every shipment as if it were our own and keep our customers informed throughout the journey.",
+    "values": [
+      {"title": "On-Time Delivery", "text": "We stick to planned transit times and flag any risk of delay in advance."},
+      {"title": "Transparent Pricing", "text": "Ocean freight and additional charges are shared clearly from the start."},
+      {"title": "End-to-End Tracking", "text": "You stay informed at every stage, from loading to final delivery."}
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Every logistics step you need",
+    "items": [
+      {"title": "FCL Container Shipping", "text": "We carry your full container loads in 20' and 40' containers to destinations worldwide."},
+      {"title": "LCL Consolidated Shipping", "text": "We offer economical consolidated solutions for cargo that does not fill a container."},
+      {"title": "Import & Export Consulting", "text": "We support you with regulations, documentation and process planning."},
+      {"title": "Customs & Documentation", "text": "We speed up your paperwork together with our customs brokerage partners."},
+      {"title": "Reefer (Refrigerated) Shipping", "text": "We move temperature-controlled cargo without breaking the cold chain."},
+      {"title": "Door-to-Door Delivery", "text": "With port-linked inland transport, we bring your cargo right to your address."}
+    ]
+  },
+  "routes": {
+    "eyebrow": "Routes",
+    "title": "Our scheduled sailings",
+    "mapLabel": "Stylised route diagram showing ports and sailings",
+    "transit": "Est. transit",
+    "frequency": "Frequency",
+    "note": "Transit times are estimates and may vary by season and transshipment port.",
+    "items": [
+      {"from": "Mersin", "to": "Jebel Ali (Dubai)", "range": "14-18", "unit": "days", "frequency": "Weekly"},
+      {"from": "Ambarlı (Istanbul)", "to": "Jeddah", "range": "10-12", "unit": "days", "frequency": "Weekly"},
+      {"from": "Mersin", "to": "Umm Qasr (Iraq)", "range": "18-22", "unit": "days", "frequency": "Every 15 days"},
+      {"from": "Izmir", "to": "Hamburg", "range": "12-15", "unit": "days", "frequency": "Weekly"},
+      {"from": "Gemlik", "to": "Alexandria", "range": "5-7", "unit": "days", "frequency": "Weekly"},
+      {"from": "Ambarlı", "to": "Shanghai", "range": "28-32", "unit": "days", "frequency": "Weekly"}
+    ]
+  },
+  "quote": {
+    "eyebrow": "Get a Quote",
+    "title": "Quick price quote",
+    "text": "Share your cargo details and our team will get back to you with a tailored quote within one business day.",
+    "fields": {
+      "pol": {"label": "Port of loading", "placeholder": "Search port or country"},
+      "pod": {"label": "Port of discharge", "placeholder": "Search port or country"},
+      "type": {"label": "Container type"},
+      "qty": {"label": "Number of containers", "dec": "Decrease quantity", "inc": "Increase quantity"},
+      "cargo": {"label": "Type of cargo", "placeholder": "e.g. food, textiles, spare parts"},
+      "date": {"label": "Estimated loading date"},
+      "name": {"label": "Full name"},
+      "company": {"label": "Company name"},
+      "email": {"label": "Email", "placeholder": "name@company.com"},
+      "phone": {"label": "Phone", "placeholder": "+90 5XX XXX XX XX"},
+      "note": {"label": "Note (optional)", "placeholder": "Special requirements, cargo dimensions, delivery terms…"}
+    },
+    "combo": {"noResults": "No matching ports found", "toggle": "Toggle port list"},
+    "typeDesc": {
+      "dc20": "Standard dry cargo",
+      "dc40": "Standard dry cargo",
+      "hc40": "High-cube dry cargo",
+      "rf20": "Temperature controlled",
+      "rf40": "Temperature controlled",
+      "ot": "Open roof, tall cargo",
+      "fr": "Out-of-gauge, heavy cargo"
+    },
+    "kvkk": "I consent to the processing of my personal data for the purpose of preparing a quote.",
+    "submit": "Request Quote",
+    "sending": "Sending…",
+    "errors": {
+      "required": "This field is required.",
+      "port": "Please choose a port from the list.",
+      "samePort": "The discharge port must differ from the loading port.",
+      "qty": "Enter at least 1 container.",
+      "date": "The date cannot be in the past.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number.",
+      "kvkk": "You need to give consent to continue.",
+      "summary": "Please review the highlighted fields."
+    },
+    "success": {
+      "title": "Your request has been received.",
+      "refLabel": "Your reference number:",
+      "text": "Our team will get back to you within one business day at the latest.",
+      "again": "Create a new request"
+    },
+    "note": "Concept work: the information entered in this form is not sent anywhere."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "text": "Our team is ready to answer your questions about routes, pricing or operations.",
+    "address": {"label": "Address", "value": "Liman Caddesi No: 1, Akdeniz / Mersin"},
+    "phone": {"label": "Phone"},
+    "email": {"label": "Email"},
+    "hours": {"label": "Working hours", "days": "Monday–Friday", "time": "09:00-18:00"},
+    "whatsapp": {"label": "WhatsApp", "action": "Message us on WhatsApp"},
+    "card": {"title": "Mersin, Türkiye", "sub": "Head office", "label": "Stylised card showing the head office location in Mersin"}
+  },
+  "whatsapp": {
+    "label": "WhatsApp information",
+    "bubble": "On the live site, this button connects to your company's WhatsApp line with a ready-made message in the visitor's language.",
+    "close": "Close"
+  },
+  "footer": {
+    "blurb": "Reliable ocean container freight from Mersin to ports around the world.",
+    "links": "Sections",
+    "rights": "© 2026 Navcar Shipping",
+    "concept": "This page is a concept work prepared by BocoLabs."
+  },
+  "ports": {
+    "ambarli": "Ambarlı", "mersin": "Mersin", "izmir": "Izmir", "gemlik": "Gemlik", "aliaga": "Aliağa", "kocaeli": "Kocaeli",
+    "jebelAli": "Jebel Ali", "jeddah": "Jeddah", "dammam": "Dammam", "hamad": "Hamad", "shuwaikh": "Shuwaikh", "umQasr": "Umm Qasr",
+    "aqaba": "Aqaba", "alexandria": "Alexandria", "portSaid": "Port Said", "hamburg": "Hamburg", "rotterdam": "Rotterdam",
+    "antwerp": "Antwerp", "valencia": "Valencia", "piraeus": "Piraeus", "constanta": "Constanța", "shanghai": "Shanghai",
+    "ningbo": "Ningbo", "singapore": "Singapore", "nhavaSheva": "Nhava Sheva"
+  },
+  "countries": {
+    "tr": "Türkiye", "ae": "UAE", "sa": "Saudi Arabia", "qa": "Qatar", "kw": "Kuwait", "iq": "Iraq", "jo": "Jordan", "eg": "Egypt",
+    "de": "Germany", "nl": "Netherlands", "be": "Belgium", "es": "Spain", "gr": "Greece", "ro": "Romania", "cn": "China",
+    "sg": "Singapore", "in": "India"
+  }
+}

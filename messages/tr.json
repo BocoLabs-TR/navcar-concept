@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "title": "Navcar Denizcilik | Deniz Yolu Konteyner Taşımacılığı",
+    "description": "FCL ve LCL konteyner taşımacılığından gümrük süreçlerine kadar ithalat ve ihracatınızın her adımını tek noktadan yönetiyoruz."
+  },
+  "brand": {"name": "Navcar Denizcilik", "sub": "Denizcilik"},
+  "badge": {"text": "Konsept çalışma · BocoLabs"},
+  "nav": {
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "routes": "Rotalar",
+    "contact": "İletişim",
+    "quote": "Teklif Al",
+    "main": "Ana menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "skip": "İçeriğe geç",
+    "home": "Navcar Denizcilik – sayfa başı"
+  },
+  "lang": {"label": "Dil seçimi", "tr": "Türkçe", "en": "English", "ar": "العربية"},
+  "hero": {
+    "eyebrow": "Deniz Yolu Konteyner Taşımacılığı",
+    "title": "Yükünüz, dünyanın limanlarına güvenle ulaşsın.",
+    "text": "FCL ve LCL konteyner taşımacılığından gümrük süreçlerine kadar ithalat ve ihracatınızın her adımını tek noktadan yönetiyoruz.",
+    "ctaQuote": "Fiyat Teklifi Alın",
+    "ctaRoutes": "Rotalarımızı İnceleyin",
+    "artLabel": "Konteyner gemisi ve rota çizgilerinden oluşan stilize çizim",
+    "stats": [
+      {"value": "50+", "label": "Liman"},
+      {"value": "30+", "label": "Ülke"},
+      {"value": "7/24", "label": "Operasyon Takibi"}
+    ]
+  },
+  "about": {
+    "eyebrow": "Hakkımızda",
+    "title": "Denizde güven, karada şeffaflık",
+    "text": "Navcar Denizcilik, Türkiye'nin önde gelen limanlarından Körfez, Avrupa ve Uzak Doğu'ya uzanan düzenli seferlerle ithalatçı ve ihracatçıların güvenilir lojistik ortağıdır. Her yükü kendi yükümüz gibi takip eder, süreç boyunca müşterilerimizi düzenli olarak bilgilendiririz.",
+    "values": [
+      {"title": "Zamanında Teslim", "text": "Planlanan transit sürelerine bağlı kalır, gecikme riskini önceden bildiririz."},
+      {"title": "Şeffaf Fiyatlandırma", "text": "Navlun ve ek masrafları baştan net şekilde paylaşırız."},
+      {"title": "Uçtan Uca Takip", "text": "Yüklemeden teslimata kadar her aşamada bilgi sahibi olursunuz."}
+    ]
+  },
+  "services": {
+    "eyebrow": "Hizmetler",
+    "title": "İhtiyacınız olan her lojistik adım",
+    "items": [
+      {"title": "FCL Konteyner Taşımacılığı", "text": "Tam konteyner yüklerinizi 20' ve 40' konteynerlerle dünyanın dört bir yanına taşıyoruz."},
+      {"title": "LCL Parsiyel Taşımacılık", "text": "Konteyneri doldurmayan yükleriniz için ekonomik parsiyel çözümler sunuyoruz."},
+      {"title": "İthalat ve İhracat Danışmanlığı", "text": "Mevzuat, belge ve süreç planlamasında yanınızdayız."},
+      {"title": "Gümrük ve Evrak Süreçleri", "text": "Gümrük müşavirliği iş ortaklarımızla evrak süreçlerinizi hızlandırıyoruz."},
+      {"title": "Frigorifik (Reefer) Taşımacılık", "text": "Isı kontrollü yüklerinizi soğuk zinciri bozmadan taşıyoruz."},
+      {"title": "Kapıdan Kapıya Teslimat", "text": "Liman bağlantılı kara taşımacılığıyla yükünüzü adresine kadar ulaştırıyoruz."}
+    ]
+  },
+  "routes": {
+    "eyebrow": "Rotalar",
+    "title": "Düzenli seferlerimiz",
+    "mapLabel": "Liman noktalarını ve seferleri gösteren stilize rota şeması",
+    "transit": "Tahmini transit",
+    "frequency": "Sefer sıklığı",
+    "note": "Transit süreleri tahminidir; sezon ve aktarma limanına göre değişebilir.",
+    "items": [
+      {"from": "Mersin", "to": "Jebel Ali (Dubai)", "range": "14-18", "unit": "gün", "frequency": "Haftalık"},
+      {"from": "Ambarlı (İstanbul)", "to": "Cidde", "range": "10-12", "unit": "gün", "frequency": "Haftalık"},
+      {"from": "Mersin", "to": "Umm Qasr (Irak)", "range": "18-22", "unit": "gün", "frequency": "15 günde bir"},
+      {"from": "İzmir", "to": "Hamburg", "range": "12-15", "unit": "gün", "frequency": "Haftalık"},
+      {"from": "Gemlik", "to": "İskenderiye", "range": "5-7", "unit": "gün", "frequency": "Haftalık"},
+      {"from": "Ambarlı", "to": "Şanghay", "range": "28-32", "unit": "gün", "frequency": "Haftalık"}
+    ]
+  },
+  "quote": {
+    "eyebrow": "Teklif Al",
+    "title": "Hızlı fiyat teklifi",
+    "text": "Yük bilgilerinizi paylaşın, ekibimiz en geç 1 iş günü içinde size özel teklifle dönüş yapsın.",
+    "fields": {
+      "pol": {"label": "Yükleme limanı", "placeholder": "Liman veya ülke arayın"},
+      "pod": {"label": "Varış limanı", "placeholder": "Liman veya ülke arayın"},
+      "type": {"label": "Konteyner tipi"},
+      "qty": {"label": "Konteyner adedi", "dec": "Adedi azalt", "inc": "Adedi artır"},
+      "cargo": {"label": "Yük cinsi", "placeholder": "Örn. gıda, tekstil, yedek parça"},
+      "date": {"label": "Tahmini yükleme tarihi"},
+      "name": {"label": "Ad soyad"},
+      "company": {"label": "Firma adı"},
+      "email": {"label": "E-posta", "placeholder": "ad@firma.com"},
+      "phone": {"label": "Telefon", "placeholder": "+90 5XX XXX XX XX"},
+      "note": {"label": "Not (opsiyonel)", "placeholder": "Özel talepleriniz, ürün ölçüleri, teslim şartları…"}
+    },
+    "combo": {"noResults": "Eşleşen liman bulunamadı", "toggle": "Liman listesini aç/kapat"},
+    "typeDesc": {
+      "dc20": "Standart kuru yük",
+      "dc40": "Standart kuru yük",
+      "hc40": "Yüksek hacimli kuru yük",
+      "rf20": "Isı kontrollü",
+      "rf40": "Isı kontrollü",
+      "ot": "Üstü açık, yüksek yük",
+      "fr": "Gabari dışı, ağır yük"
+    },
+    "kvkk": "Kişisel verilerimin teklif hazırlanması amacıyla işlenmesini kabul ediyorum.",
+    "submit": "Teklif Talep Et",
+    "sending": "Gönderiliyor…",
+    "errors": {
+      "required": "Bu alan zorunludur.",
+      "port": "Lütfen listeden bir liman seçin.",
+      "samePort": "Varış limanı yükleme limanından farklı olmalıdır.",
+      "qty": "En az 1 adet girin.",
+      "date": "Bugünden önceki bir tarih seçilemez.",
+      "email": "Geçerli bir e-posta adresi girin.",
+      "phone": "Geçerli bir telefon numarası girin.",
+      "kvkk": "Devam etmek için onay vermeniz gerekir.",
+      "summary": "Lütfen işaretli alanları kontrol edin."
+    },
+    "success": {
+      "title": "Talebiniz alındı.",
+      "refLabel": "Referans numaranız:",
+      "text": "Ekibimiz en geç 1 iş günü içinde size dönüş yapacaktır.",
+      "again": "Yeni talep oluştur"
+    },
+    "note": "Konsept çalışma: bu formda girilen bilgiler hiçbir yere gönderilmez."
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Bize ulaşın",
+    "text": "Rota, fiyat veya operasyon süreçleri hakkındaki sorularınız için ekibimiz yanınızda.",
+    "address": {"label": "Adres", "value": "Liman Caddesi No: 1, Akdeniz / Mersin"},
+    "phone": {"label": "Telefon"},
+    "email": {"label": "E-posta"},
+    "hours": {"label": "Çalışma saatleri", "days": "Pazartesi-Cuma", "time": "09:00-18:00"},
+    "whatsapp": {"label": "WhatsApp", "action": "WhatsApp ile yazın"},
+    "card": {"title": "Mersin, Türkiye", "sub": "Genel merkez", "label": "Mersin'deki merkez ofisin konumunu gösteren stilize kart"}
+  },
+  "whatsapp": {
+    "label": "WhatsApp bilgisi",
+    "bubble": "Canlı sitede bu buton firmanızın WhatsApp hattına, ziyaretçinin dilinde hazır bir mesajla bağlanır.",
+    "close": "Kapat"
+  },
+  "footer": {
+    "blurb": "Mersin'den dünyanın limanlarına güvenilir deniz yolu konteyner taşımacılığı.",
+    "links": "Bölümler",
+    "rights": "© 2026 Navcar Denizcilik",
+    "concept": "Bu sayfa BocoLabs tarafından hazırlanmış bir konsept çalışmadır."
+  },
+  "ports": {
+    "ambarli": "Ambarlı", "mersin": "Mersin", "izmir": "İzmir", "gemlik": "Gemlik", "aliaga": "Aliağa", "kocaeli": "Kocaeli",
+    "jebelAli": "Jebel Ali", "jeddah": "Cidde", "dammam": "Dammam", "hamad": "Hamad", "shuwaikh": "Şuveyh", "umQasr": "Umm Qasr",
+    "aqaba": "Akabe", "alexandria": "İskenderiye", "portSaid": "Port Said", "hamburg": "Hamburg", "rotterdam": "Rotterdam",
+    "antwerp": "Anvers", "valencia": "Valensiya", "piraeus": "Pire", "constanta": "Köstence", "shanghai": "Şanghay",
+    "ningbo": "Ningbo", "singapore": "Singapur", "nhavaSheva": "Nhava Sheva"
+  },
+  "countries": {
+    "tr": "Türkiye", "ae": "BAE", "sa": "Suudi Arabistan", "qa": "Katar", "kw": "Kuveyt", "iq": "Irak", "jo": "Ürdün", "eg": "Mısır",
+    "de": "Almanya", "nl": "Hollanda", "be": "Belçika", "es": "İspanya", "gr": "Yunanistan", "ro": "Romanya", "cn": "Çin",
+    "sg": "Singapur", "in": "Hindistan"
+  }
+}

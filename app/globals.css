@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-700: #14325c;
+  --color-teal: #1f7a8c;
+  --color-teal-dark: #17606f;
+  --color-sand: #f5f3ee;
+  --color-orange: #e8833a;
+  --color-orange-dark: #b9560f;
+  --color-ink: #1f2933;
+  --color-muted: #4b5563;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-manrope), var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-ink);
+  background: #fff;
+}
+
+[dir="rtl"] body {
+  font-family: var(--font-arabic), var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.75;
+}
+
+section[id],
+#top {
+  scroll-margin-top: 5.5rem;
+}
+
+.eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+[dir="rtl"] .eyebrow {
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 0.9375rem;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3 {
+  line-height: 1.4;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-orange);
+  outline-offset: 2px;
+}
+
+/* ---- decorative animation (CSS only, disabled for reduced motion) ---- */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes dash-flow {
+  to { stroke-dashoffset: -48; }
+}
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes wave-drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-60px); }
+}
+@keyframes travel {
+  from { offset-distance: 0%; }
+  to { offset-distance: 100%; }
+}
+@keyframes pulse-ring {
+  0% { transform: scale(0.6); opacity: 0.8; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.anim-fade-up { animation: fade-up 0.7s ease-out backwards; }
+.anim-delay-1 { animation-delay: 0.1s; }
+.anim-delay-2 { animation-delay: 0.2s; }
+.anim-delay-3 { animation-delay: 0.3s; }
+.route-flow { stroke-dasharray: 6 10; animation: dash-flow 2.4s linear infinite; }
+.ship-bob { animation: bob 5s ease-in-out infinite; transform-box: fill-box; }
+.wave-drift { animation: wave-drift 9s linear infinite; }
+.route-dot {
+  offset-rotate: 0deg;
+  animation: travel 9s linear infinite;
+}
+.pulse-ring {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: pulse-ring 2.4s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
