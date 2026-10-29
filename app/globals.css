@@ -12,7 +12,12 @@
   --color-muted: #4b5563;
 }
 
+@theme inline {
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+}
+
 html {
+  font-family: var(--font-manrope), system-ui, sans-serif;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
@@ -23,6 +28,14 @@ body {
   background: #fff;
 }
 
+/* IBM Plex Sans Arabic tops out at 700: avoid synthetic bold */
+[dir="rtl"] .font-extrabold,
+[dir="rtl"] .font-black {
+  font-weight: 700;
+}
+
+[dir="rtl"] html,
+html[dir="rtl"],
 [dir="rtl"] body {
   font-family: var(--font-arabic), var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   line-height: 1.75;

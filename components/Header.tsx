@@ -50,7 +50,7 @@ export function Header() {
           <LocaleSwitcher />
           <a
             href="#teklif-al"
-            className="hidden rounded-lg bg-orange px-5 py-2.5 text-sm font-bold text-navy transition-colors hover:bg-[#f09a5c] md:inline-block"
+            className="hidden rounded-lg bg-orange px-5 py-2.5 text-sm font-bold text-navy transition-colors hover:bg-[#f09a5c] lg:inline-block"
           >
             {t('quote')}
           </a>
